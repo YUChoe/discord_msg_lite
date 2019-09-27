@@ -10,6 +10,7 @@ setup(
     author_email='yonguk.choe@gmail.com',
     description='A simple and lightweight Python PyPI module to send messages easily using Discord Webhooks.',
     long_description=long_desc,
+    url='https://github.com/YUChoe/discord_msg_lite',
     long_description_content_type="text/markdown",
     py_modules=['discord_msg_lite'],
     package_dir={'': 'src'},
