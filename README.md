@@ -1,3 +1,5 @@
+[![Latest Version](https://img.shields.io/pypi/v/discord-msg-lite.svg](https://pypi.org/project/discord-msg-lite/)
+
 # Discord message lite
 
 This is a simple and lightweight Python PyPI module to send messages easily using Discord Webhooks.
