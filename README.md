@@ -1,4 +1,4 @@
-[![Latest Version](https://img.shields.io/pypi/v/discord-msg-lite.svg](https://pypi.org/project/discord-msg-lite/)
+[![Latest Version](https://img.shields.io/pypi/v/discord-msg-lite.svg)](https://pypi.org/project/discord-msg-lite/)
 
 # Discord message lite
 
