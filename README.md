@@ -7,7 +7,7 @@ This is a simple and lightweight Python PyPI module to send messages easily usin
 Run the following to install:
 
 ```python
-pip install discord_msg_lite
+pip install discord-msg-lite
 ```
 
 ## Usage
