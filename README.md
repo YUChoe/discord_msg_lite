@@ -1,4 +1,4 @@
-# lightweight Discord message for Python
+# Discord message lite
 
 This is a simple and lightweight Python PyPI module to send messages easily using Discord Webhooks.
 
