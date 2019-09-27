@@ -5,7 +5,7 @@ with open('README.md', 'r') as fp:
 
 setup(
     name='discord_msg_lite',
-    version='1',
+    version='2',
     author='Tom YU Choe',
     author_email='yonguk.choe@gmail.com',
     description='A simple and lightweight Python PyPI module to send messages easily using Discord Webhooks.',
@@ -16,6 +16,10 @@ setup(
     package_dir={'': 'src'},
     license='MIT',
     classifiers=[
+        "Development Status :: 5 - Production/Stable",
+        "Intended Audience :: Information Technology",
+        "Intended Audience :: Developers",
+        "Intended Audience :: System Administrators",
         "Programming Language :: Python :: 3",
         "Programming Language :: Python :: 3.4",
         "Programming Language :: Python :: 3.6",
