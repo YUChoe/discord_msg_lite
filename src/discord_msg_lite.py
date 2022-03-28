@@ -1,16 +1,16 @@
 # -*- coding: utf-8 -*-
-import sys
 import http.client
-import os
+from urllib.parse import urlparse
 
 class Discord_msg():
     def __init__(self, webhook_url):
         self.webhook_url = webhook_url
+        self.domain = urlparse(self.webhook_url).netloc
 
     def send(self, msg):
         formdata = "------:::BOUNDARY:::\r\nContent-Disposition: form-data; name=\"content\"\r\n\r\n" + msg + "\r\n------:::BOUNDARY:::--"
 
-        connection = http.client.HTTPSConnection("discordapp.com")
+        connection = http.client.HTTPSConnection(self.domain)
         connection.request("POST", self.webhook_url, formdata.encode('utf-8'), {
             'content-type': "multipart/form-data; boundary=----:::BOUNDARY:::",
             'cache-control': "no-cache"
